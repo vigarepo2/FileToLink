@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main
+      - beta
       - latest
 
   workflow_dispatch:  # This allows manual triggering of the workflow
